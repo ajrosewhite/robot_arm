@@ -9,5 +9,6 @@ void setup() {
 }
 
 void loop() {
-  head.write(90);  // see where the middle of the servo is
+  // 0 is open
+  head.write(70);  // see where the middle of the servo is
 }
